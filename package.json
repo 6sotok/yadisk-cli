@@ -1,0 +1,19 @@
+{
+  "name": "yadisk-cli",
+  "version": "0.0.1",
+  "description": "yandex disk command line tool",
+  "main": "bin/yadisk",
+  "scripts": {
+    "test": "yadisk -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/6sotok/yadisk-cli.git"
+  },
+  "dependencies": {
+      "coa": "0.3.x",
+      "winston": "0.6.x",
+      "ya-disk-api": "git://github.com/6sotok/ya-disk-api.git#dev"
+  },
+  "author": ""
+}
