@@ -13,7 +13,10 @@
   "dependencies": {
       "coa": "0.3.x",
       "winston": "0.6.x",
-      "ya-disk-api": "git://github.com/6sotok/ya-disk-api.git#dev"
+      "yadisk-api": "git://github.com/6sotok/yadisk-api.git#dev",
+      "path-extra": "0.1.x",
+      "vow": "0.3.0",
+      "read": "1.0.x"
   },
   "author": ""
 }
