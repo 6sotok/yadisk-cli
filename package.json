@@ -16,6 +16,7 @@
       "yadisk-api": "git://github.com/6sotok/yadisk-api.git#dev",
       "path-extra": "0.1.x",
       "vow": "0.3.0",
+      "vow-fs": "0.1.x",
       "read": "1.0.x"
   },
   "author": ""
