@@ -22,4 +22,5 @@ Clone this repo, and run 'npm install'
  * dl : Download file
  * mv : Move
  * ls : List of directory
+ * getprop : Get property file or dir
 
