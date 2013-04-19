@@ -1,10 +1,10 @@
 {
-  "name": "yadisk-cli",
+  "name": "yadisk",
   "version": "0.0.1",
   "description": "yandex disk command line tool",
   "main": "bin/yadisk",
-  "scripts": {
-    "test": "yadisk -v"
+  "bin": {
+      "yadisk": "bin/yadisk"
   },
   "repository": {
     "type": "git",
