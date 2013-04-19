@@ -1,13 +1,19 @@
 #Yandex disk comannd line interface
 
+##Why yadisk
+* It's cli. everybody love cli!
+* You can sync only dirrectories you want to have on you PC
+
 ##Installation
 
-Clone this repo, and run 'npm install'
+npm install -g yadisk
 
 ##Usage:
 
-  ./bin/yadisk COMMAND [OPTIONS] [ARGS]
-  ./bin/yadisk [OPTIONS] [ARGS]
+  yadisk COMMAND [OPTIONS] [ARGS]
+  yadisk [OPTIONS] [ARGS]
+
+  At first you should login by typing ```yadisk login``` and then you can operate with your disk.
 
 ##Commands:
 
@@ -25,3 +31,5 @@ Clone this repo, and run 'npm install'
  * getprop : Get property file or dir
  * setprop : Set property for file or dir
 
+##API
+TODO
