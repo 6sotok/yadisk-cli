@@ -1,19 +1,18 @@
-#Yandex disk comannd line interface
+#Yandex disk command line interface
 
-##Why yadisk
+##Why yadisk?
 * It's cli. everybody love cli!
 * You can sync only dirrectories you want to have on you PC
+* ???
+* PROFIT
 
 ##Installation
 
-npm install -g yadisk
+```npm install -g yadisk```
 
 ##Usage:
 
-  yadisk COMMAND [OPTIONS] [ARGS]
-  yadisk [OPTIONS] [ARGS]
-
-  At first you should login by typing ```yadisk login``` and then you can operate with your disk.
+  At first you should login by typing ```yadisk login``` and then you can operate with your disk. To list all available commands run ```yadisk --help```.
 
 ##Commands:
 

@@ -1,6 +1,6 @@
 {
   "name": "yadisk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "yandex disk command line tool",
   "main": "bin/yadisk",
   "bin": {
