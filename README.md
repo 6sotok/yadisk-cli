@@ -23,4 +23,5 @@ Clone this repo, and run 'npm install'
  * mv : Move
  * ls : List of directory
  * getprop : Get property file or dir
+ * setprop : Set property for file or dir
 
