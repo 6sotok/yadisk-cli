@@ -1,0 +1,160 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.8.21/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.2.11
+3 info using node@v0.8.21
+4 verbose publish [ '.' ]
+5 verbose read json /Users/anatolijostrovskij/workspace/yadisk-cli/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/anatolijostrovskij/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/tmp.tgz
+14 verbose folder .
+15 info prepublish yadisk@0.0.1
+16 silly lockFile 3a52ce78- .
+17 verbose lock . /Users/anatolijostrovskij/.npm/3a52ce78-.lock
+18 silly lockFile 37c06fc9-7512-0-06480702036060393-tmp-tgz /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/tmp.tgz
+19 verbose lock /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/tmp.tgz /Users/anatolijostrovskij/.npm/37c06fc9-7512-0-06480702036060393-tmp-tgz.lock
+20 silly lockFile 3a52ce78- .
+21 silly lockFile 3a52ce78- .
+22 silly lockFile 37c06fc9-7512-0-06480702036060393-tmp-tgz /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/tmp.tgz
+23 silly lockFile 37c06fc9-7512-0-06480702036060393-tmp-tgz /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/tmp.tgz
+24 verbose tar unpack /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/tmp.tgz
+25 silly lockFile dc68e856-7512-0-06480702036060393-package /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/package
+26 verbose lock /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/package /Users/anatolijostrovskij/.npm/dc68e856-7512-0-06480702036060393-package.lock
+27 silly lockFile 37c06fc9-7512-0-06480702036060393-tmp-tgz /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/tmp.tgz
+28 verbose lock /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/tmp.tgz /Users/anatolijostrovskij/.npm/37c06fc9-7512-0-06480702036060393-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm extractEntry bin/yadisk
+34 silly gunzTarPerm extractEntry lib/coa.js
+35 silly gunzTarPerm extractEntry lib/logger.js
+36 silly gunzTarPerm extractEntry lib/userData.js
+37 silly gunzTarPerm extractEntry lib/commands/cp.js
+38 silly gunzTarPerm extractEntry lib/commands/login.js
+39 silly gunzTarPerm extractEntry lib/commands/logout.js
+40 silly gunzTarPerm extractEntry lib/commands/ls.js
+41 silly gunzTarPerm extractEntry lib/commands/getproperty.js
+42 silly gunzTarPerm extractEntry lib/commands/mv.js
+43 silly gunzTarPerm extractEntry lib/commands/publish.js
+44 silly gunzTarPerm extractEntry lib/commands/rm.js
+45 silly gunzTarPerm extractEntry lib/commands/setproperty.js
+46 silly gunzTarPerm extractEntry lib/commands/unpublish.js
+47 silly gunzTarPerm extractEntry lib/commands/dl.js
+48 silly gunzTarPerm extractEntry lib/commands/upload.js
+49 silly gunzTarPerm extractEntry lib/commands/mkdir.js
+50 verbose read json /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/package/package.json
+51 silly lockFile dc68e856-7512-0-06480702036060393-package /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/package
+52 silly lockFile dc68e856-7512-0-06480702036060393-package /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/package
+53 silly lockFile 37c06fc9-7512-0-06480702036060393-tmp-tgz /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/tmp.tgz
+54 silly lockFile 37c06fc9-7512-0-06480702036060393-tmp-tgz /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/tmp.tgz
+55 verbose from cache /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/package/package.json
+56 verbose tar pack [ '/Users/anatolijostrovskij/.npm/yadisk/0.0.1/package.tgz',
+56 verbose tar pack   '/var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/package' ]
+57 verbose tarball /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package.tgz
+58 verbose folder /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/package
+59 silly lockFile dc68e856-7512-0-06480702036060393-package /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/package
+60 verbose lock /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/package /Users/anatolijostrovskij/.npm/dc68e856-7512-0-06480702036060393-package.lock
+61 silly lockFile 645c3b94-kij-npm-yadisk-0-0-1-package-tgz /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package.tgz
+62 verbose lock /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package.tgz /Users/anatolijostrovskij/.npm/645c3b94-kij-npm-yadisk-0-0-1-package-tgz.lock
+63 silly lockFile dc68e856-7512-0-06480702036060393-package /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/package
+64 silly lockFile dc68e856-7512-0-06480702036060393-package /var/folders/yr/bpkflqqn4m18qz2k7wbxdv880000gn/T/npm-2783/1366411267512-0.06480702036060393/package
+65 silly lockFile 645c3b94-kij-npm-yadisk-0-0-1-package-tgz /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package.tgz
+66 silly lockFile 645c3b94-kij-npm-yadisk-0-0-1-package-tgz /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package.tgz
+67 silly lockFile 68f44ef8-rovskij-npm-yadisk-0-0-1-package /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package
+68 verbose lock /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package /Users/anatolijostrovskij/.npm/68f44ef8-rovskij-npm-yadisk-0-0-1-package.lock
+69 silly lockFile 68f44ef8-rovskij-npm-yadisk-0-0-1-package /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package
+70 silly lockFile 68f44ef8-rovskij-npm-yadisk-0-0-1-package /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package
+71 verbose tar unpack /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package.tgz
+72 silly lockFile 68f44ef8-rovskij-npm-yadisk-0-0-1-package /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package
+73 verbose lock /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package /Users/anatolijostrovskij/.npm/68f44ef8-rovskij-npm-yadisk-0-0-1-package.lock
+74 silly lockFile 645c3b94-kij-npm-yadisk-0-0-1-package-tgz /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package.tgz
+75 verbose lock /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package.tgz /Users/anatolijostrovskij/.npm/645c3b94-kij-npm-yadisk-0-0-1-package-tgz.lock
+76 silly gunzTarPerm modes [ '755', '644' ]
+77 silly gunzTarPerm extractEntry package.json
+78 silly gunzTarPerm extractEntry .npmignore
+79 silly gunzTarPerm extractEntry README.md
+80 silly gunzTarPerm extractEntry bin/yadisk
+81 silly gunzTarPerm extractEntry lib/coa.js
+82 silly gunzTarPerm extractEntry lib/logger.js
+83 silly gunzTarPerm extractEntry lib/userData.js
+84 silly gunzTarPerm extractEntry lib/commands/cp.js
+85 silly gunzTarPerm extractEntry lib/commands/login.js
+86 silly gunzTarPerm extractEntry lib/commands/logout.js
+87 silly gunzTarPerm extractEntry lib/commands/ls.js
+88 silly gunzTarPerm extractEntry lib/commands/getproperty.js
+89 silly gunzTarPerm extractEntry lib/commands/mv.js
+90 silly gunzTarPerm extractEntry lib/commands/publish.js
+91 silly gunzTarPerm extractEntry lib/commands/rm.js
+92 silly gunzTarPerm extractEntry lib/commands/setproperty.js
+93 silly gunzTarPerm extractEntry lib/commands/unpublish.js
+94 silly gunzTarPerm extractEntry lib/commands/dl.js
+95 silly gunzTarPerm extractEntry lib/commands/upload.js
+96 silly gunzTarPerm extractEntry lib/commands/mkdir.js
+97 verbose read json /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package/package.json
+98 silly lockFile 68f44ef8-rovskij-npm-yadisk-0-0-1-package /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package
+99 silly lockFile 68f44ef8-rovskij-npm-yadisk-0-0-1-package /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package
+100 silly lockFile 645c3b94-kij-npm-yadisk-0-0-1-package-tgz /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package.tgz
+101 silly lockFile 645c3b94-kij-npm-yadisk-0-0-1-package-tgz /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package.tgz
+102 silly shasum updated bytes 4097
+103 info shasum 5cf8ebd4367065e81290278e4850163475a87b37
+103 info shasum /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package.tgz
+104 verbose from cache /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package/package.json
+105 verbose chmod /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package.tgz 644
+106 verbose chown /Users/anatolijostrovskij/.npm/yadisk/0.0.1/package.tgz [ 501, 20 ]
+107 silly lockFile 3a52ce78- .
+108 silly publish { name: 'yadisk',
+108 silly publish   version: '0.0.1',
+108 silly publish   description: 'yandex disk command line tool',
+108 silly publish   main: 'bin/yadisk',
+108 silly publish   bin: { yadisk: 'bin/yadisk' },
+108 silly publish   repository: { type: 'git', url: 'https://github.com/6sotok/yadisk-cli.git' },
+108 silly publish   dependencies:
+108 silly publish    { coa: '0.3.x',
+108 silly publish      winston: '0.6.x',
+108 silly publish      'yadisk-api': 'git://github.com/6sotok/yadisk-api.git#dev',
+108 silly publish      'path-extra': '0.1.x',
+108 silly publish      vow: '0.3.0',
+108 silly publish      'vow-fs': '0.1.x',
+108 silly publish      read: '1.0.x' },
+108 silly publish   author: '',
+108 silly publish   readme: '#Yandex disk comannd line interface\n\n##Why yadisk\n* It\'s cli. everybody love cli!\n* You can sync only dirrectories you want to have on you PC\n\n##Installation\n\nnpm install -g yadisk\n\n##Usage:\n\n  yadisk COMMAND [OPTIONS] [ARGS]\n  yadisk [OPTIONS] [ARGS]\n\n  At first you should login by typing ```yadisk login``` and then you can operate with your disk.\n\n##Commands:\n\n * mkdir : Create new dir on Yandex Disk\n * publish : Publish file\n * unpublish : unpublish\n * rm : Remove\n * cp : Copy\n * upload : Upload\n * login : Login to Yandex Disk\n * logout : Forget current user data\n * dl : Download file\n * mv : Move\n * ls : List of directory\n * getprop : Get property file or dir\n * setprop : Set property for file or dir\n\n##API\nTODO\n',
+108 silly publish   readmeFilename: 'README.md',
+108 silly publish   _id: 'yadisk@0.0.1',
+108 silly publish   dist: { shasum: '5cf8ebd4367065e81290278e4850163475a87b37' },
+108 silly publish   _from: '.' }
+109 verbose url raw yadisk
+110 verbose url resolving [ 'https://registry.npmjs.org/', './yadisk' ]
+111 verbose url resolved https://registry.npmjs.org/yadisk
+112 info trying registry request attempt 1 at 02:41:18
+113 http PUT https://registry.npmjs.org/yadisk
+114 http 409 https://registry.npmjs.org/yadisk
+115 verbose url raw yadisk
+116 verbose url resolving [ 'https://registry.npmjs.org/', './yadisk' ]
+117 verbose url resolved https://registry.npmjs.org/yadisk
+118 info trying registry request attempt 1 at 02:41:21
+119 http GET https://registry.npmjs.org/yadisk
+120 http 200 https://registry.npmjs.org/yadisk
+121 error publish fail Cannot publish over existing version.
+121 error publish fail Update the 'version' field in package.json and try again.
+121 error publish fail
+121 error publish fail If the previous version was published in error, see:
+121 error publish fail     npm help unpublish
+121 error publish fail
+121 error publish fail To automatically increment version numbers, see:
+121 error publish fail     npm help version
+122 error System Darwin 12.2.1
+123 error command "/usr/local/Cellar/node/0.8.21/bin/node" "/usr/local/bin/npm" "publish"
+124 error cwd /Users/anatolijostrovskij/workspace/yadisk-cli
+125 error node -v v0.8.21
+126 error npm -v 1.2.11
+127 error code EPUBLISHCONFLICT
+128 verbose exit [ 1, true ]
